@@ -30,6 +30,8 @@ RMC支持固定源计算功能。固定源功能用于已知外中子源的情�
    如果fN为1则表示打开裂变中子，如果fP为0则表示关闭裂变光子，
    如果fP为1则表示关闭裂变光子。
 
+.. important:: 如果没有写fission选项，则默认打开裂变中子和光子。
+
 
 .. _section_fixedsource_adjoint:
 
